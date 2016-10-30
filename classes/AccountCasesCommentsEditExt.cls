@@ -6,7 +6,7 @@
  *******************************************************************/
 public with sharing class AccountCasesCommentsEditExt
 {
-    //Removed the comment
+    //Added the comment
     // The cases being managed, as wrapper classes so that we can
     // uniquely identify records before they are added to the database
     public List<CaseKeyWrapper> caseWrappers {get; set;}
