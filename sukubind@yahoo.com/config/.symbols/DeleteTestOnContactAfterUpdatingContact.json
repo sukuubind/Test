@@ -1,0 +1,181 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pi0000006CoBNAA0",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pi0000006CoBNAA0",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 11
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "deleteTestOnContacts",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "Integer",
+            "type": null
+        }
+    ],
+    "name": "DeleteTestOnContactAfterUpdatingContact",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 6
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 7
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 15,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "DeleteTestOnContactAfterUpdatingContact",
+        "references": [],
+        "type": "DeleteTestOnContactAfterUpdatingContact"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 103,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 134,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 168,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "testOnContactsSetToDelete",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "testOnContactsMap",
+            "references": [],
+            "type": "Map"
+        }
+    ]
+}

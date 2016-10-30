@@ -1,0 +1,930 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"re",
+				"reRendered"
+			],
+			[
+				"op",
+				"openTasks1"
+			],
+			[
+				"W",
+				"Wrapper"
+			],
+			[
+				"cl",
+				"closedTasks1"
+			],
+			[
+				"Wr",
+				"WrapperList"
+			],
+			[
+				"acc",
+				"acctId"
+			],
+			[
+				"opp",
+				"oppOcrMap"
+			],
+			[
+				"Opp",
+				"Opportunity"
+			],
+			[
+				"Contact",
+				"contactMapPrimary"
+			],
+			[
+				"cont",
+				"conttactSet"
+			],
+			[
+				"ops",
+				"opsWithNoOcr"
+			],
+			[
+				"opsWith",
+				"opsWithNoOcr"
+			],
+			[
+				"osp",
+				"opsWithStageNameChanged"
+			],
+			[
+				"us",
+				"userList1"
+			],
+			[
+				"user",
+				"userMap"
+			],
+			[
+				"u",
+				"userList1"
+			],
+			[
+				"demo",
+				"demo1"
+			],
+			[
+				"riva",
+				"rivalListToUpdate"
+			],
+			[
+				"ri",
+				"rivalListToUpdate"
+			],
+			[
+				"rival",
+				"Rivals_r"
+			],
+			[
+				"riv",
+				"rivalList1"
+			],
+			[
+				"old",
+				"oldMap"
+			],
+			[
+				"tota",
+				"total_Amount__c"
+			],
+			[
+				"tot",
+				"totalAmountMap"
+			],
+			[
+				"A",
+				"AcctFromRivalAndBack"
+			],
+			[
+				"ocr",
+				"ocrList"
+			],
+			[
+				"O",
+				"OpportunityContactRole"
+			],
+			[
+				"Cont",
+				"ContactId"
+			],
+			[
+				"conta",
+				"contactSetMap"
+			],
+			[
+				"opsWi",
+				"opsWithNoPrimary"
+			],
+			[
+				"opsWithNo",
+				"opsWithNoPrimary"
+			],
+			[
+				"Oppo",
+				"OpportunityContactRole"
+			],
+			[
+				"name",
+				"nameToReturn"
+			],
+			[
+				"hello",
+				"helloMessage1"
+			],
+			[
+				"Em",
+				"Email"
+			],
+			[
+				"ac",
+				"actId"
+			],
+			[
+				"case",
+				"caseList1"
+			],
+			[
+				"contactMap",
+				"contactMapPrimary"
+			],
+			[
+				"Opportunit",
+				"OpportunityId"
+			],
+			[
+				"opsW",
+				"opsWithNoPrimary"
+			],
+			[
+				"tas",
+				"tasksToInsert"
+			],
+			[
+				"out",
+				"apex:outputPanel"
+			],
+			[
+				"ap",
+				"apex:form"
+			],
+			[
+				"comm",
+				"apex:commandButton"
+			],
+			[
+				"com",
+				"apex:commandButton"
+			],
+			[
+				"output",
+				"apex:outputText"
+			],
+			[
+				"he",
+				"headerValue\t(String)"
+			],
+			[
+				"pag",
+				"apex:pageBlockTable"
+			],
+			[
+				"pageB",
+				"apex:pageBlock"
+			],
+			[
+				"ti",
+				"title\tTag"
+			],
+			[
+				"pa",
+				"pageReference"
+			],
+			[
+				"apex",
+				"apex:pageBlock"
+			],
+			[
+				"ou",
+				"apex:outputField"
+			],
+			[
+				"Email",
+				"EmailSet"
+			],
+			[
+				"sty",
+				"style"
+			],
+			[
+				"Wrapper",
+				"WrapperClassList"
+			],
+			[
+				"Wra",
+				"WrapperClass"
+			],
+			[
+				"In",
+				"InOpp"
+			],
+			[
+				"account",
+				"accountId"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"Dem",
+				"DemoCtr"
+			],
+			[
+				"doc",
+				"docType\t(String)"
+			],
+			[
+				"a",
+				"alt\t(String)"
+			],
+			[
+				"wid",
+				"width: 〔property〕"
+			],
+			[
+				"mar",
+				"margin-right"
+			],
+			[
+				"include",
+				"apex:includeScript"
+			],
+			[
+				"st",
+				"standardStylesheets\t(Boolean)"
+			],
+			[
+				"incl",
+				"apex:includeScript"
+			],
+			[
+				"to",
+				"totalNotClosed"
+			],
+			[
+				"ha",
+				"handleTooMany"
+			],
+			[
+				"caseSe",
+				"caseSetOwnerId"
+			],
+			[
+				"Case",
+				"CaseLimit"
+			],
+			[
+				"Sele",
+				"SelectOpportunitiesController"
+			],
+			[
+				"sel",
+				"SelectOpportunityWrapper"
+			],
+			[
+				"SelectO",
+				"SelectOpportunityWrapper"
+			],
+			[
+				"se",
+				"SelectOpportunityWrapper"
+			],
+			[
+				"Select",
+				"SelectOpportunityWrapper"
+			],
+			[
+				"opI",
+				"opsIdOcrMap"
+			],
+			[
+				"Con",
+				"contactsMapWithPrimary"
+			],
+			[
+				"Conta",
+				"ContactId"
+			],
+			[
+				"opps",
+				"opsWithNoPrimary"
+			],
+			[
+				"task",
+				"tasksListToInsert"
+			],
+			[
+				"ta",
+				"tasksListToInsert"
+			],
+			[
+				"page",
+				"apex:pageBlockSection"
+			],
+			[
+				"pageBl",
+				"apex:pageBlockTable"
+			],
+			[
+				"PageMe",
+				"apex:pageMessages"
+			],
+			[
+				"cr",
+				"createMemberOne"
+			],
+			[
+				"creat",
+				"createCallTaskOnChildOpps"
+			],
+			[
+				"get",
+				"getMessage"
+			],
+			[
+				"me",
+				"memberOneListToInsert"
+			],
+			[
+				"new",
+				"newMemberOne"
+			],
+			[
+				"Is",
+				"IsClosed"
+			],
+			[
+				"Account",
+				"AccountId"
+			],
+			[
+				"owner",
+				"ownerid"
+			],
+			[
+				"crea",
+				"createTaskOnChildOpps"
+			],
+			[
+				"taskClo",
+				"taskClosed"
+			],
+			[
+				"Terr",
+				"Territory__c"
+			],
+			[
+				"te",
+				"terrList1"
+			],
+			[
+				"T",
+				"Territory__c"
+			],
+			[
+				"zip",
+				"zipTerritoryMap"
+			],
+			[
+				"Max",
+				"MaxCases"
+			],
+			[
+				"U",
+				"user_Limit__c"
+			],
+			[
+				"Pa",
+				"Passenger"
+			],
+			[
+				"Sav",
+				"SaveToPDf"
+			],
+			[
+				"contact",
+				"contactListSupervisor"
+			],
+			[
+				"Ri",
+				"Rival_Count__c"
+			],
+			[
+				"Accou",
+				"AccountId"
+			],
+			[
+				"S",
+				"SelectOpportunitiesController"
+			],
+			[
+				"con",
+				"contactSetId"
+			],
+			[
+				"contac",
+				"contactid"
+			],
+			[
+				"contactM",
+				"contactMapAll"
+			],
+			[
+				"Op",
+				"Opportunity"
+			],
+			[
+				"the",
+				"theSection"
+			],
+			[
+				"inpu",
+				"apex:inputField"
+			],
+			[
+				"Inpu",
+				"apex:inputField"
+			],
+			[
+				"Page",
+				"apex:pageBlockSection"
+			],
+			[
+				"oup",
+				"apex:outputText"
+			],
+			[
+				"outpu",
+				"apex:outputLabel"
+			],
+			[
+				"tasks",
+				"tasksByWeek"
+			],
+			[
+				"aft",
+				"afterUpdateOpportunityBatchSupport"
+			],
+			[
+				"Bat",
+				"BatchableContext"
+			],
+			[
+				"fu",
+				"futureUpdateOpportunities"
+			],
+			[
+				"fut",
+				"futureCalled"
+			],
+			[
+				"is",
+				"is_User_Special__c"
+			],
+			[
+				"ca",
+				"CacheUserInfo"
+			],
+			[
+				"Ca",
+				"CacheUserInfo"
+			],
+			[
+				"num",
+				"numberOfGuests"
+			],
+			[
+				"fo",
+				"foodCharges"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: sa",
+				"Package Control: Satisfy Dependencies"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Advanced Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"install pa",
+				"Package Control: Install Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 514.0
+	},
+	"console":
+	{
+		"height": 202.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/config",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/src",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/src/pages",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/src/staticresources"
+	],
+	"file_history":
+	[
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/src/pages/ABC.page",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/src/pages/AngularMultiple.page",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/src/pages/AngularMultiplePagePractice.page",
+		"/C/Users/sukumar/Desktop/Angular with Scot Allen/angularjs-get-started/2-angularjs-get-started-exercise-files/after/script.js",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/src/classes/WrapperExample.cls",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 12-41-21.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 12-24-49.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 12-19-36.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 11-34-38.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 10-35-06.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 10-28-37.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 10-27-19.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 10-23-13.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-10-23 10-20-51.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-09-09 16-32-30.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-09-09 16-32-31.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-09-09 16-32-59.log",
+		"/C/Users/sukumar/workspace_New_09_09_16/sukubind@yahoo.com/debug/logs/2016-09-09 16-23-17.log",
+		"/C/Users/sukumar/AppData/Roaming/Sublime Text 3/Packages/MavensMate/messages/7.0.0.txt",
+		"/C/Users/sukumar/Desktop/practice.html",
+		"/C/Users/sukumar/Desktop/practice2.html",
+		"/C/Users/sukumar/Desktop/functionCalledAsVariable.html",
+		"/C/Users/sukumar/Desktop/New folder/BACKUP OF SALESFORCE RASMUSSEN/NA3 Apollo/src/classes/CSVReader.cls",
+		"/C/Users/sukumar/Desktop/New folder/BACKUP OF SALESFORCE RASMUSSEN/NA3 Apollo/src/classes/ScheduleXMLUpload.cls",
+		"/C/Users/sukumar/Desktop/New folder/BACKUP OF SALESFORCE RASMUSSEN/NA3 Apollo/src/classes/XMLFileReader.cls",
+		"/C/Users/sukumar/Desktop/New folder/BACKUP OF SALESFORCE RASMUSSEN/NA3 Apollo/src/classes/XMLFileReader_Test.cls",
+		"/C/Users/sukumar/Desktop/New folder/BACKUP OF SALESFORCE RASMUSSEN/NA3 Apollo/src/classes/XMLFileUploadTriggerTest.cls",
+		"/C/Users/sukumar/Desktop/New folder/BACKUP OF SALESFORCE RASMUSSEN/NA3 Apollo/src/classes/SessionController.cls",
+		"/C/Users/sukumar/AppData/Roaming/Sublime Text 3/Packages/User/SublimeLinter.sublime-settings",
+		"/C/Users/sukumar/AppData/Roaming/Sublime Text 3/Packages/User/AngularJS-sublime-package.sublime-settings",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/Angular.page",
+		"/C/Users/sukumar/AppData/Roaming/Sublime Text 3/Packages/AngularJS/AngularJS-sublime-package.sublime-settings",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/AngularUpdateRecords.page",
+		"/C/Users/sukumar/AppData/Roaming/Sublime Text 3/Packages/GoSublime/USAGE.md",
+		"/C/Users/sukumar/AppData/Roaming/Sublime Text 3/Packages/GoSublime/CHANGELOG.md",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/AngularMultiple.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/Angular1.page-meta.xml",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/Angular1.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/AngularFetchAndUpdate.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/AngularInsertRecords.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/AngularDemo.page",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_isolated-scope-function-parameters.zip/script.js",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/TestAngularPage.page",
+		"/C/Users/sukumar/Desktop/Angular Sample/Angular Fundamentals with Joe Eames and Jim Cooper/DemoApp/Index.html",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_first-directive.zip/first-directive/script.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/Angular Fundamentals with Joe Eames and Jim Cooper/DemoApp/app/EditProfileFiles/Original/EditProfileController.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/Angular Fundamentals with Joe Eames and Jim Cooper/DemoApp/app/EditProfileFiles/Original/GravatarUrlBuilder.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/Angular Fundamentals with Joe Eames and Jim Cooper/DemoApp/app/js/controllers/EditEventController.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/Angular Fundamentals with Joe Eames and Jim Cooper/Index.html",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/SBINDRA DEVELOPER SANDBOX DEVRY/src/staticresources/nse002.resource",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/AngularMultiplePagePractice.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/AngularMultiplePagePracticeController.cls",
+		"/C/Users/sukumar/Documents/DemoApp/DemoApp/app/js/controllers/EventController.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/Angular Fundamentals with Joe Eames and Jim Cooper/EventDetails.html",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_angularjs-fundamentals.zip/2-angularjs-fundamentals-m2-markup-controllers-exercise-files/Original/DemoApp/app/js/app.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_DemoApp-Finished.zip/DemoApp-Finished/scripts/eventsController.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_DemoApp-Finished.zip/DemoApp-Finished/app/js/controllers/EventController.js",
+		"/C/Users/sukumar/Documents/DemoApp/DemoApp/app/js/app.js",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/ContactExt.cls",
+		"/C/Users/sukumar/Desktop/Angular Sample/SSWA FROM DEV BOX DKC/SswaDvuUs2~/app/app.run.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/SSWA FROM DEV BOX DKC/SswaDvuUs2~/app/app.routes.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/SSWA FROM DEV BOX DKC/SswaDvuUs2~/app/app.module.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/SSWA FROM DEV BOX DKC/SswaDvuUs2~/app/app.config.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_nforce-master.zip/nforce-master/examples/get-record.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_nforce-master.zip/nforce-master/examples/query.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_nforce-master.zip/nforce-master/examples/autorefresh/app.js",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/AngularMultiplePage.page",
+		"/C/Users/sukumar/Desktop/All_Parts/AllControllers.js",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/AngularForAll.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/Angular.cls",
+		"/C/Users/sukumar/Desktop/Angular Sample/AngularJS Get Started Scott Allen/angularjs-get-started/3-angularjs-get-started-exercise-files/after/script.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/AngularJS Get Started Scott Allen/angularjs-get-started/2-angularjs-get-started-exercise-files/after/script.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/AngularJS Get Started Scott Allen/angularjs-get-started/4-angularjs-get-started-exercise-files/after/script.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/AngularJS Get Started Scott Allen/angularjs-get-started/4-angularjs-get-started-exercise-files/after/github.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/AngularJS Get Started Scott Allen/angularjs-get-started/5-angularjs-get-started-exercise-files/before/github.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/AngularJS Get Started Scott Allen/angularjs-get-started/5-angularjs-get-started-exercise-files/after/MainController.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/AngularJS Get Started Scott Allen/angularjs-get-started/1-angularjs-get-started-exercise-files/before/script.js",
+		"/C/Users/sukumar/Desktop/Angular Sample/AngularJS Get Started Scott Allen/angularjs-get-started/4-angularjs-get-started-exercise-files/before/script.js",
+		"/C/Users/sukumar/Desktop/ForceTK/index.html",
+		"/C/Users/sukumar/Desktop/ForceTK/forcejs-es6/forcejs-es6/lib/force.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_forcejs-es6.zip/forcejs-es6/lib/force.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp2_soql-explorer-master.zip/soql-explorer-master/js/app.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp3_soql-explorer-master.zip/soql-explorer-master/js/app.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_soql-explorer-master.zip/soql-explorer-master/js/app.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_Force.com-JavaScript-REST-Toolkit-master.zip/Force.com-JavaScript-REST-Toolkit-master/forcetk.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_soql-explorer-master.zip/soql-explorer-master/lib/force.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_Force.com-JavaScript-REST-Toolkit-master.zip/Force.com-JavaScript-REST-Toolkit-master/app.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_ngForce-master.zip/ngForce-master/build/ngForce-dependencies.min.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_ngForce-master.zip/ngForce-master/build/ngForce.min.js",
+		"/C/Users/sukumar/AppData/Local/Temp/Temp1_ngForce-master.zip/ngForce-master/jsSrc/subModules/ngForce-remoteObjects.js",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/ActionFunctionDemoController.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/ActionFunctionDemo.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/AjaxDemo.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/AjaxDemo.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/RenderExample.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/WrapperClassWithRenderExample.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/WrapperClassWithRenderExampleController.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/RenderExample.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/WrapperClassWithRenderExamplePage.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/wrapperClassController.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/wrapperClassController.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/AngularDemoController.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/WrapperAccountOpportunityControllerPage.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/WrapperExampleController.cls",
+		"/C/Users/sukumar/Desktop/PLURAL SIGHT/PLURALSIGHT/IndexFileForAngular.html",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/jQueryMobileResources.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/HelloJQuery.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/WrapperAccountOpportunityController.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/WrapperAccountOpportunity.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/WrapperExampleControllerPage.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/WrapperAccountOpportunity.cls-meta.xml",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/OverInitializedClass.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/Passenger.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/Flight35.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/InnerClassController1Page.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/AccountQueryHandler.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/Passengers.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/Flights.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/Flight.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/Flight1.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/NewAndExistingController5.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/NewAndExistingController5.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/NewAndExistingController.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/NewAndExistingController.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/MyContactsListController.cls",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/MyContactsListPage.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/pages/Hello.page",
+		"/C/Users/sukumar/Desktop/New folder/MavensMateProjects/sukubind@yahoo.com/src/classes/Guest.cls"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 116.0,
+		"where_history":
+		[
+			"C:\\Users\\sukumar\\workspace_New_09_25\\sukubind@yahoo.com\\src",
+			"C:\\Users\\sukumar\\workspace\\sukubind@yahoo.com\\src",
+			"C:\\Users\\sukumar\\workspace\\sukubind@yahoo.com"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"week",
+			"weeks",
+			"AbsentCount",
+			"AttendMap",
+			"thisdate",
+			"this.date",
+			"hex",
+			"clien",
+			"InnerClassController",
+			"endpointURL",
+			"auth",
+			"u",
+			"populate",
+			"ACP",
+			"summarydetails",
+			"RevenueStyle",
+			"style",
+			"PopulateData()",
+			"BuildDataStructures",
+			"dataManager.SetSelectedUser",
+			"Commissionable Potential",
+			"ShowRevenueOrNumbers",
+			"PopulateData",
+			"summarytotal",
+			"dataManager",
+			"table",
+			"summaryPanel",
+			"href",
+			"Totals",
+			"RevenueStyle",
+			"ShowRevenueOrNumbers",
+			"RevenueStyle",
+			"Annual_Commissionable_Potential__c",
+			"commi",
+			"acv",
+			"ACV",
+			"Total",
+			"Renewal Summary",
+			"ForecastNumberChanged",
+			"quantity",
+			"qu",
+			"quote",
+			"roundRobinMap",
+			"rr",
+			"getnext",
+			"admin",
+			"tooling",
+			"\n        ",
+			"        \n",
+			"trigger updateTransactionalProduct on Contract (before update){\n    Set<ID> ContractSetID = new Set<ID>();\n    for(Contract C : Trigger.new){\n        ContractSetID.add(C.ID);\n    }\n    List<Contract> ContractList = [select id from contract where ID IN: ContractSetID and ID IN (select SBQQ__Contract__c from SBQQ__Subscription__c where SBQQ__Product__r.Transactional_Product__c = false )];\n    Map<ID,Contract> ContractMap = new Map<ID,Contract>();\n    for(Contract C : ContractList){\n        ContractMap.put(C.ID,C);\n    }\n   // List<SBQQ__Subscription__c> s= [select Id,SBQQ__Contract__c from SBQQ__Subscription__c where SBQQ__Product__r.Transactional_Product__c = false  and SBQQ__Contract__c in:Trigger.newMap.keyset()];\n    for (Contract  C : Trigger.new){\n        if(ContractSetID.contains(C.ID)){\n            Contract NC = ContractMap.get(C.ID);\n            if(NC != null){\n                C.All_Transaction_Products__c = false;\n\n            }\n            else\n            {\n                C.All_Transaction_Products__c = true;\n\n            }\n\n        }\n    }\n\n\n}\n",
+			"contact",
+			"case",
+			"Account",
+			"Custom_Settings__c",
+			"update",
+			"update quote",
+			"'SubmitQuote'",
+			"update",
+			"sidebar",
+			"trigger",
+			"insert",
+			"userif",
+			"accountMap",
+			"Accountid",
+			"Accountmap",
+			"legacy",
+			"opportunity",
+			"accountmap",
+			"sidebar",
+			"margin",
+			"public class CaseLimit {\n\t// define variables\nMap<ID,Case> OldCasesMap;\nMap<ID,Case> NewCasesMap;\nList<Case> NewCasesList;\nset<ID>CaseSetID = new set<ID>();\nMap<id,integer> CaseCountMap = new Map<ID,Integer>();\n// Constructor will create the object from the class and expect new and old values from the trigger\ninteger MaxCases;\npublic CaseLimit(Map<ID,Case> OldCasesTriggerMap, Map<Id,Case> NewCasesTriggerMap,List<Case> NewCasesTriggerList){\n\n\t// Assign value to variables\n\tOldCasesMap = OldCasesTriggerMap;\n\tNewCasesMap = NewCasesTriggerMap;\n\tNewCasesList = NewCasesTriggerList;\n}\n\n// Main methods here\n\npublic Map<ID,Case> CaseLimitMainMethod(){\nString UserName = UserInfo.getName();\nCustom_Settings__c settings = Custom_Settings__c.getInstance(UserName);\nif (!settings = null){\n\tMaxCases = Integer.ValueOF(settings.User_Limit__c);\n}\n\nfor (Case NewCase : NewCasesMap.values()){\n\tif(NewCase.Ownerid != null){\n\t\tCaseSetID.add(NewCase.ownerid);\n\t}\n}\n\nfor (AggregateResult result :[Select count(id),ownerid from Case where ownerid in CaseSetID and CreatedDate = THIS_MONTH group by ownerid]){\n\tCaseCountMap.put((id) result.get('ownerid'),(integer) result.get('Expr0'));\n}\n\n\nMap<ID,User> UserMap = new Map<ID,User>();\nfor(List<User> PotentialUsers : [Select Id,name from Users where id IN: CaseSetID]){\n\tfor(User U : PotentialUsers){\n\t\tUserMap.put(U.ID,U);\n\t}\n}\n\nfor (Case NewCase : NewCasesList){\n\tif(MaxCases < CaseCountMap.get(NewCase.ownerid)){\n\t\tNewCase.addError('The user ' + UserMap.get(NewCase.ownerid).name + 'has completed his quota of ' + CaseCountMap.get(NewCase.ownerid))\n\t}\n}\n\n\n}\n\n}",
+			"TestBatchBatchOpptyWithProdWithoutContractUpdated",
+			"Product2",
+			"OpportunityLineItem",
+			"side",
+			"side ",
+			"{\n\t\"always_prompt_for_file_reload\": false,\n\t\"always_show_minimap_viewport\": false,\n\t\"animation_enabled\": true,\n\t\"atomic_save\": false,\n\t\"auto_close_tags\": true,\n\t\"auto_complete\": true,\n\t\"auto_complete_commit_on_tab\": false,\n\t\"auto_complete_cycle\": false,\n\t\"auto_complete_delay\": 10,\n\t\"auto_complete_selector\": \"source - comment, meta.tag - punctuation.definition.tag.begin\",\n\t\"auto_complete_size_limit\": 4194304,\n\t\"auto_complete_triggers\":\n\t[\n\t\t{\n\t\t\t\"characters\": \"<\",\n\t\t\t\"selector\": \"text.html\"\n\t\t}\n\t],\n\t\"auto_complete_with_fields\": false,\n\t\"auto_find_in_selection\": false,\n\t\"auto_indent\": false,\n\t\"auto_match_enabled\": false,\n\t\"binary_file_patterns\":\n\t[\n\t\t\"*.jpg\",\n\t\t\"*.jpeg\",\n\t\t\"*.png\",\n\t\t\"*.gif\",\n\t\t\"*.ttf\",\n\t\t\"*.tga\",\n\t\t\"*.dds\",\n\t\t\"*.ico\",\n\t\t\"*.eot\",\n\t\t\"*.pdf\",\n\t\t\"*.swf\",\n\t\t\"*.jar\",\n\t\t\"*.zip\"\n\t],\n\t\"bold_folder_labels\": false,\n\t\"caret_extra_bottom\": 0,\n\t\"caret_extra_top\": 0,\n\t\"caret_extra_width\": 0,\n\t\"caret_style\": \"smooth\",\n\t\"close_windows_when_empty\": false,\n\t\"color_scheme\": \"Packages/Color Scheme - Default/Solarized (Dark).tmTheme\",\n\t\"copy_with_empty_selection\": true,\n\t\"create_window_at_startup\": true,\n\t\"default_encoding\": \"UTF-8\",\n\t\"default_line_ending\": \"system\",\n\t\"detect_indentation\": true,\n\t\"dictionary\": \"Packages/Language - English/en_US.dic\",\n\t\"drag_text\": true,\n\t\"draw_centered\": false,\n\t\"draw_indent_guides\": true,\n\t\"draw_minimap_border\": false,\n\t\"draw_white_space\": \"selection\",\n\t\"enable_hexadecimal_encoding\": true,\n\t\"enable_tab_scrolling\": true,\n\t\"enable_telemetry\": \"auto\",\n\t\"ensure_newline_at_eof_on_save\": false,\n\t\"fade_fold_buttons\": true,\n\t\"fallback_encoding\": \"Western (Windows 1252)\",\n\t\"file_exclude_patterns\":\n\t[\n\t\t\"*.pyc\",\n\t\t\"*.pyo\",\n\t\t\"*.exe\",\n\t\t\"*.dll\",\n\t\t\"*.obj\",\n\t\t\"*.o\",\n\t\t\"*.a\",\n\t\t\"*.lib\",\n\t\t\"*.so\",\n\t\t\"*.dylib\",\n\t\t\"*.ncb\",\n\t\t\"*.sdf\",\n\t\t\"*.suo\",\n\t\t\"*.pdb\",\n\t\t\"*.idb\",\n\t\t\".DS_Store\",\n\t\t\"*.class\",\n\t\t\"*.psd\",\n\t\t\"*.db\",\n\t\t\"*.sublime-workspace\"\n\t],\n\t\"find_selected_text\": true,\n\t\"fold_buttons\": true,\n\t\"folder_exclude_patterns\":\n\t[\n\t\t\".svn\",\n\t\t\".git\",\n\t\t\".hg\",\n\t\t\"CVS\"\n\t],\n\t\"font_face\": \"\",\n\t\"font_options\":\n\t[\n\t],\n\t\"font_size\": 12,\n\t\"gpu_window_buffer\": \"auto\",\n\t\"gutter\": true,\n\t\"highlight_line\": false,\n\t\"highlight_modified_tabs\": false,\n\t\"hot_exit\": true,\n\t\"ignored_packages\":\n\t[\n\t\t\"Vintage\"\n\t],\n\t\"indent_guide_options\":\n\t[\n\t\t\"draw_normal\"\n\t],\n\t\"indent_subsequent_lines\": true,\n\t\"indent_to_bracket\": false,\n\t\"index_exclude_patterns\":\n\t[\n\t\t\"*.log\"\n\t],\n\t\"index_files\": true,\n\t\"index_workers\": 0,\n\t\"line_numbers\": true,\n\t\"line_padding_bottom\": 0,\n\t\"line_padding_top\": 0,\n\t\"margin\": 4,\n\t\"match_brackets\": true,\n\t\"match_brackets_angle\": false,\n\t\"match_brackets_braces\": true,\n\t\"match_brackets_content\": true,\n\t\"match_brackets_square\": true,\n\t\"match_selection\": true,\n\t\"match_tags\": true,\n\t\"move_to_limit_on_up_down\": false,\n\t\"open_files_in_new_window\": true,\n\t\"overlay_scroll_bars\": \"system\",\n\t\"preview_on_click\": true,\n\t\"remember_full_screen\": false,\n\t\"rulers\":\n\t[\n\t],\n\t\"save_on_focus_lost\": false,\n\t\"scroll_past_end\": true,\n\t\"scroll_speed\": 1.0,\n\t\"shift_tab_unindent\": false,\n\t\"show_encoding\": false,\n\t\"show_full_path\": true,\n\t\"show_line_endings\": false,\n\t\"show_panel_on_build\": true,\n\t\"show_tab_close_buttons\": true,\n\t\"smart_indent\": true,\n\t\"spell_check\": false,\n\t\"spelling_selector\": \"markup.raw, source string.quoted - punctuation - meta.preprocessor.c.include, source comment - source comment.block.preprocessor, -(source, constant, keyword, storage, support, variable, markup.underline.link, meta.tag)\",\n\t\"tab_completion\": true,\n\t\"tab_size\": 4,\n\t\"theme\": \"Default.sublime-theme\",\n\t\"translate_tabs_to_spaces\": false,\n\t\"tree_animation_enabled\": true,\n\t\"trim_automatic_white_space\": true,\n\t\"trim_trailing_white_space_on_save\": false,\n\t\"use_simple_full_screen\": false,\n\t\"use_tab_stops\": true,\n\t\"word_separators\": \"./\\\\()\\\"'-:,.;<>~!@#$%^&*|+=[]{}`~?\",\n\t\"word_wrap\": \"auto\",\n\t\"wrap_width\": 0\n}\n",
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"50"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			".)",
+			"account",
+			"Contact",
+			"User_Limit__c ",
+			"TestBatchOpptyWithNoProdContractUpdat",
+			"OpportunityLineItem",
+			"Product2"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.MavensMate-OutputPanel":
+	{
+		"height": 168.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "sukubind@yahoo.com.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 248.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
