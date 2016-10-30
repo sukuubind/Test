@@ -1,0 +1,313 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 11
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "CheckOcrOnOpportunity",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01pi0000006CjpyAAC",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pi0000006CjpyAAC",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 18
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "checkOcr",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "CheckOcrOnOpportunity",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 6
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 7
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "CheckOcrOnOpportunity",
+        "references": [],
+        "type": "CheckOcrOnOpportunity"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 49,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 78,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 103,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 131,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 48,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 130,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "opOcrMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 21
+            },
+            "modifiers": [],
+            "name": "ocrList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "OpportunityContactRole"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "ocrList1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "ocrSetId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "o",
+            "references": [],
+            "type": "Opportunity"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "ocr",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

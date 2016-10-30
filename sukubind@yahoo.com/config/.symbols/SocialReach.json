@@ -1,0 +1,686 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 9,
+                "line": 10
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "SocialReach",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01pi0000006CmpIAAS",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pi0000006CmpIAAS",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 19
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateAccountWithSocialReach",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 98
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "updateAccountWithSocialReachUpdate",
+            "parameters": [
+                {
+                    "name": "newList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "newMap",
+                    "type": "Map"
+                },
+                {
+                    "name": "oldList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "oldMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        }
+    ],
+    "name": "SocialReach",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 3
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 4
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 5
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 6
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 15,
+            "line": 1
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "SocialReach",
+        "references": [],
+        "type": "SocialReach"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 61,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 83,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 109,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 76,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 102,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 124,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 150,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "contactSetId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "accountSetId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 38
+            },
+            "modifiers": [],
+            "name": "twitterCountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "linkedinCountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "facebookCountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 42
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "accountListToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 56
+            },
+            "modifiers": [],
+            "name": "accountSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "accountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "contactId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "act",
+            "references": [],
+            "type": "Account"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "newList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 108,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "newMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 130,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "oldList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 156,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "oldMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 101
+            },
+            "modifiers": [],
+            "name": "contactSetId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 102
+            },
+            "modifiers": [],
+            "name": "accountSetId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 117
+            },
+            "modifiers": [],
+            "name": "twitterCountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 118
+            },
+            "modifiers": [],
+            "name": "linkedinCountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 119
+            },
+            "modifiers": [],
+            "name": "facebookCountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 120
+            },
+            "modifiers": [],
+            "name": "facebookCountMapNull",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 121
+            },
+            "modifiers": [],
+            "name": "facebookCountMapAll",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 128
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 132
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 137
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 142
+            },
+            "modifiers": [],
+            "name": "result",
+            "references": [],
+            "type": "AggregateResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 146
+            },
+            "modifiers": [],
+            "name": "accountListToUpdate",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 147
+            },
+            "modifiers": [],
+            "name": "accountSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "accountMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 149
+            },
+            "modifiers": [],
+            "name": "contactId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 151
+            },
+            "modifiers": [],
+            "name": "act",
+            "references": [],
+            "type": "Account"
+        }
+    ]
+}

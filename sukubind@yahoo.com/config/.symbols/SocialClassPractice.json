@@ -1,0 +1,276 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pi0000006CnJKAA0",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 18
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "SocialInfo",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "SocialInfo",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 8
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "None",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 9
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Facebooks",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 10
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Twitters",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 11
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "Linkedins",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 12
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "TwitterPlusLinkedins",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 13
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "TwitterPlusFacebooks",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "FacebookPlusLinkedins",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 15
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "AllThree",
+                    "references": [],
+                    "type": "Integer"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 6
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "SocialInfo",
+                "references": [],
+                "type": "SocialInfo"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01pi0000006CnJKAA0",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 26
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "bruteForceTest1",
+            "parameters": [
+                {
+                    "name": "accounts",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "Map",
+            "type": null
+        }
+    ],
+    "name": "SocialClassPractice",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "SocialClassPractice",
+        "references": [],
+        "type": "SocialClassPractice"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 65,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "accounts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "mapToAccounts",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 30
+            },
+            "modifiers": [],
+            "name": "allContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 31
+            },
+            "modifiers": [],
+            "name": "results",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 33
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 35
+            },
+            "modifiers": [],
+            "name": "accountResult",
+            "references": [],
+            "type": "SocialInfo"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "anyFound",
+            "references": [],
+            "type": "Boolean"
+        }
+    ]
+}
