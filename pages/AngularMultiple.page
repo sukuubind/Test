@@ -1,0 +1,126 @@
+<apex:page controller="Angular" docType="html-5.0">
+<html ng-app="demoApp" lang="en">
+<head>
+<meta charset="utf-8"/>
+	   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+	   <title>Angular Demo</title>
+	   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+
+	   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+	   <script>
+	   // define the app
+	   var demoApp = angular.module('demoApp',[]);
+	   // add the controller
+	   demoApp.controller('DemoCtrl',  function($scope){
+	   	$scope.account = {!account}
+	   	$scope.contacts = {!contacts}
+	   });
+
+	   demoApp.controller('DemoCtrl1', function($scope){
+	   	$scope.account = {!account}
+	   	$scope.contacts ={!contactList}
+	   	//$scope.opportunities = {!opportunityList}
+	   	$scope.sortBy = 'Name';
+	   	$scope.orderByMe = function (contact) {
+	   		$scope.myOrderBy = contact;
+	   	}
+	   });
+
+	   demoApp.controller('DemoCtrlOpp',function($scope){
+	   	$scope.opportunities = {!opportunityList}
+	   	//$scope.sortBy = 'Amount';
+	   	$scope.orderByMe = function(opportunity)
+	   	{
+	   		$scope.myOrderBy = opportunity;
+	   	}
+	   });
+	   </script>
+	   </head>
+	   <body>
+
+
+
+          <div class="container" ng-controller="DemoCtrl">
+	   <h1 style="color:Green">{{account.Name}}</h1>
+	   <p class="lead" style="color:Gray">
+	   {{account.BillingStreet}}<br/>
+	   {{account.BillingCity}}, {{account.BillingState}}
+	   {{account.BillingPostalCode}}
+	   </p>
+	    <b>Search</b>&nbsp;&nbsp;&nbsp;<input ng-model="query" /><br/><br/>
+
+
+	   <table class="table table-bordered">
+	     <tr>
+	       <th>Name</th>
+	       <th>Email</th>
+	       <th>Id</th>
+	     </tr>
+	     <tr ng-repeat="contact in contacts | filter:query">
+	       <td>{{contact.Name}}</td>
+	       <td>{{contact.Email}}</td>
+	       <td>{{contact.Id}}</td>
+	     </tr>
+	   </table>
+	   </div>
+
+       <div class="container" ng-controller="DemoCtrl1">
+	   <h1 style="color:Green">First 100 Contacts</h1>
+	   <p class="lead" style="color:Gray">
+	   Please search with names for quick search!
+	   </p>
+	    <b>Search</b>&nbsp;&nbsp;&nbsp;<input ng-model="query" /><br/><br/>
+
+
+	   <table class="table table-bordered">
+	     <tr>
+	       <th ng-click="orderByMe('Name')">Name</th>
+           <th ng-click="orderByMe('Email')">Email</th>
+	       <th>Id</th>
+	     </tr>
+	     <tr ng-repeat="contact in contacts | filter:query | orderBy:myOrderBy">
+	       <td>{{contact.Name}}</td>
+	       <td>{{contact.Email}}</td>
+	       <td>{{contact.Id}}</td>
+	     </tr>
+	   </table>
+	   </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+	   <div class="container" ng-controller="DemoCtrlOpp">
+	   <h1 style="color:Green">First 100 Opportunities </h1>
+	   <p class="lead" style="color:Gray">
+	   Please search with names for quick search!
+	   </p>
+	    <b>Search</b>&nbsp;&nbsp;&nbsp;<input ng-model="query" /><br/><br/>
+
+
+	   <table class="table table-bordered">
+	     <tr>
+	       <th ng-click="orderByMe('Name')">Name</th>
+           <th ng-click="orderByMe('Id')">Id</th>
+            <th ng-click="orderByMe('Amount')">Amount</th>
+
+	     </tr>
+	     <tr ng-repeat="opportunity in opportunities | filter:query | orderBy:myOrderBy">
+	       <td>{{opportunity.Name}}</td>
+	       <td>{{opportunity.Id}}</td>
+	       <td>{{opportunity.Amount}}</td>
+	     </tr>
+	   </table>
+	   </div>
+
+	   </body>
+	</html>
+	</apex:page>
