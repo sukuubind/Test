@@ -1,0 +1,98 @@
+<apex:page showHeader="false" standardStylesheets="false" sidebar="false" applyHtmlTag="false" applyBodyTag="false" docType="html-5.0">
+    <html ng-app="SLDSApp" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+        <head>
+          <title>AngularJS - Lightning Design System</title>
+        
+            <apex:remoteObjects >
+              <apex:remoteObjectModel name="Account" fields="Id,Name,LastModifiedDate"/>
+            </apex:remoteObjects>
+        </head>
+ 
+        <body ng-controller="AccountController as viewModel">
+          <!-- REQUIRED SLDS WRAPPER -->
+          <div class="slds">
+            <!-- PAGE HEADER -->
+                <div class="slds-page-header" role="banner">
+              <p class="slds-text-heading--label">Accounts</p>
+              <h1 class="slds-text-heading--medium">My Accounts</h1>
+                    <p class="slds-text-body--small slds-m-top--x-small">{{viewModel.accounts.length}} items</p>
+                </div>
+            <!-- / PAGE HEADER -->
+            <!-- PRIMARY CONTENT WRAPPER -->
+                <table class="slds-table slds-table--bordered">
+                    <thead>
+                        <tr>
+                            <th scope="col">Account Name</th>
+                            <th scope="col">Account ID</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr ng-repeat="account in viewModel.accounts">
+                            <td>{{account.get('Name')}}</td>
+                            <td>{{account.get('Id')}}</td>
+                        </tr>
+                    </tbody>
+                </table>
+            <!-- / PRIMARY CONTENT WRAPPER -->
+ 
+            <!-- FOOTER -->
+            <!-- / FOOTER -->
+          </div>
+          <!-- / REQUIRED SLDS WRAPPER -->
+        </body>
+        <!-- JAVASCRIPT -->
+             <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js">
+    </script>
+     <link rel="stylesheet"  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+
+
+        <script>
+            angular.module('SLDSApp', []);
+ 
+            angular.module('SLDSApp').controller('AccountController', AccountController);
+            AccountController.$inject = ['sf'];
+            function AccountController(sf){
+                var viewModel = this;
+ 
+                sf.sobject('Account').retrieve({
+                    where: {OwnerId: {eq: '{!$User.Id}'}},
+                    orderby: [{LastModifiedDate: 'DESC'}],
+                    limit: 10
+                }).then(function(result){
+                    viewModel.accounts = result;
+                });
+            }
+ 
+            angular.module('SLDSApp').factory('sf', SFRemoteObjects);
+            SFRemoteObjects.$inject = ['$q'];
+            function SFRemoteObjects($q){
+ 
+                function sobject(objectTypeName){
+                    var SObject = {};
+                    SObject.model = new SObjectModel[objectTypeName]();
+                    SObject.retrieve = function(criteria){
+                        var deferred = $q.defer();
+                        SObject.model.retrieve(criteria, handleWithPromise(deferred));
+                        return deferred.promise;
+                    };
+                    return SObject;
+                }
+ 
+                function handleWithPromise(deferred){
+                    return function(error, result){
+                        if(error){
+                            deferred.reject(error);
+                        } else {
+                            deferred.resolve(result);
+                        }
+                    }
+                }
+ 
+                return {
+                    sobject: sobject,
+                }
+            }
+        </script>
+        <!-- / JAVASCRIPT -->
+    </html>
+</apex:page>

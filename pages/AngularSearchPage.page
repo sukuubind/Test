@@ -1,0 +1,126 @@
+<apex:page controller="AngularSearch" docType="html-5.0">
+<html ng-app="demoApp" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title> Search Accounts, Opportunities or Cases thru Angular </title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+<script
+src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+
+<script>
+<!-- Define the app -->
+var demoApp = angular.module('demoApp',[]);
+
+<!-- Add the controller -->
+demoApp.controller('DemoCtrlAccount', function($scope){
+    $scope.accounts = {!accounts}
+    $scope.sortBy = 'Name';
+    $scope.orderByMe = function(account)
+    {
+    $scope.myOrderBy = account;
+    }
+});
+
+demoApp.controller('DemoCtrlOpportunity', function($scope){
+    $scope.Opportunities = {!Opportunities}
+
+    $scope.sortBy = 'Name';
+    $scope.orderByMe = function(Opportunity)
+    {
+    $scope.myOrderBy = Opportunity;
+    }
+});
+
+demoApp.controller('DemoCtrlCases', function($scope){
+    $scope.Cases = {!Cases}
+    $scope.sortBy = 'Name';
+    $scope.orderByMe = function(Case)
+    {
+    $scope.myOrderBy = Case;
+    }
+});
+</script>
+</head>
+<body>
+
+<div class = "container" ng-controller = "DemoCtrlAccount">
+<h1 style="color:Green"> Search for Acounts </h1>
+<p class = "lead" style="color:Gray">
+Please search with Names!
+</p>
+<b>Search</b>&nbsp;&nbsp;&nbsp; <input ng-model="query"/><br/> <br/>
+<table class ="table table-bordered">
+<tr>
+<th ng-click="orderByMe('Name')">Name</th>
+<th ng-click="orderByMe('Industry')">Industry</th>
+<th> Id</th>
+<th> Rating</th>
+</tr>
+<tr ng-repeat="account in accounts | filter:query | orderBy:myOrderBy">
+<td>{{account.Name}}</td>
+<td>{{account.Industry}}</td>
+<td> <a href="/{{account.Id}}"> {{account.Name}}</a> </td>
+<!-- <td>{{account.Id}}</td> -->
+<td>{{account.Rating}}</td>
+</tr>
+</table>
+</div>
+
+<!-- New Div for the Opportunity controller -->
+
+<div class = "container" ng-controller="DemoCtrlOpportunity">
+<h1 style="color:Green"> Search for Opportunities </h1>
+<p class="lead" style="color:Gray">
+Please search with Names!
+</p>
+<b>Search</b>&nbsp;&nbsp;&nbsp; <input ng-model="query"/><br/> <br/>
+<table class = "table table-bordered">
+<tr>
+<th ng-click="orderByMe('Name')">Name</th>
+<th ng-click="orderByMe('StageName')">StageName</th>
+<th> Id </th>
+</tr>
+<tr ng-repeat="Opportunity in Opportunities | filter:query | orderBy:myOrderBy">
+<td>{{Opportunity.Name}}</td>
+<td>{{Opportunity.StageName}}</td>
+<td> <a href="/{{Opportunity.Id}}"> {{Opportunity.Name}}</a> </td>
+
+
+<!-- <td> <a href="/{{Opportunity.accountId}}"> {{Opportunity.account.Name}}</a> </td> -->
+
+</tr>
+</table>
+</div>
+
+
+
+
+<div class = "container" ng-controller="DemoCtrlOpportunityWithAccount">
+<h1 style="color:Green"> Search for Opportunities </h1>
+<p class="lead" style="color:Gray">
+Please search with Names!
+</p>
+<b>Search</b>&nbsp;&nbsp;&nbsp; <input ng-model="query"/><br/> <br/>
+<table class = "table table-bordered">
+<tr>
+<th ng-click="orderByMe('Name')">Name</th>
+<th ng-click="orderByMe('StageName')">StageName</th>
+<th> Id </th>
+</tr>
+<tr ng-repeat="Opportunity in Opportunities | filter:query | orderBy:myOrderBy">
+<td>{{Opportunity.Name}}</td>
+<td>{{Opportunity.StageName}}</td>
+<td> <a href="/{{Opportunity.Id}}"> {{Opportunity.Name}}</a> </td>
+
+
+<!-- <td> <a href="/{{Opportunity.accountId}}"> {{Opportunity.account.Name}}</a> </td> -->
+
+</tr>
+</table>
+</div>
+</body>
+</html>
+
+ </apex:page>

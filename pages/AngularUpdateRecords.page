@@ -1,0 +1,60 @@
+<apex:page >
+	    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.11/angular.min.js"></script>
+	    <c:sObjectRemote />
+	    <script>
+	        var vfApp = angular.module('vfApp',[]);
+	        vfApp.controller('vfappController',function($scope){
+	            $scope.accounts = []
+	            $scope.getAccounts = function(){
+	                sObject.query('SELECT Id,Name,Site,Type,Phone FROM Account LIMIT 10',function(result){
+	                    $scope.accounts = result;
+	                    $scope.$apply();
+	                })
+	            }
+
+	            $scope.update = function(a){
+	                /*remove angular added properties e.g. $$hashKey*/
+	                var temp = angular.copy(a);
+	                sObject.update(temp,function(result,event){
+	                    if(!event.status){
+	                        alert("Update Failed!");
+	                    }
+	                });
+	            }
+
+	            $scope.getAccounts();
+	        });
+	    </script>
+	    <div ng-app="vfApp" ng-controller="vfappController">
+	        <apex:sectionHeader title="AngularJS" subtitle="AngularJS & SObject Remote #2 Update Records"/>
+	        <apex:pageBlock >
+	            <!-- Borrow some styling from Pageblock table -->
+	            <table class="list" border="10" cellpadding="10" cellspacing="10" bgcolor="red" id="contactsTable">
+	                <thead class="rich-table-thead">
+	                    <tr class="headerRow ">
+	                        <th class="headerRow">Name</th>
+	                        <th class="headerRow">Site</th>
+	                        <th class="headerRow">Type</th>
+	                        <th class="headerRow">Phone</th>
+	                    </tr>
+	                </thead>
+	                <tbody>
+	                    <tr ng-repeat="a in accounts" class="dataRow" onmouseover="if (window.hiOn){hiOn(this);} " onmouseout="if (window.hiOff){hiOff(this);} " onblur="if (window.hiOff){hiOff(this);}" onfocus="if (window.hiOn){hiOn(this);}">
+	                        <td class="dataCell">
+	                            <input type="text" ng-model="a.Name" ng-blur="update(a)"/>
+	                        </td>
+	                        <td class="dataCell">
+	                            <input type="text" ng-model="a.Site" ng-blur="update(a)"/>
+	                        </td>
+	                        <td class="dataCell">
+	                            <input type="text" ng-model="a.Type" ng-blur="update(a)"/>
+	                        </td>
+	                        <td class="dataCell">
+	                            <input type="tel" ng-model="a.Phone" ng-blur="update(a)"/>
+	                        </td>
+	                    </tr>
+	                </tbody>
+	            </table>
+	        </apex:pageBlock>
+	    </div>
+	</apex:page>

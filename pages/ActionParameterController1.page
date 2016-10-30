@@ -1,0 +1,27 @@
+<apex:page controller="ActionParameterController1">
+<apex:form >
+<apex:pageBlock title="Opportunities Updated thru Custom Controller" id="opps_pb">
+<apex:actionStatus startText="Please wait" id="status"/>
+<apex:pageBlockTable value="{!opps}" var="opp">
+<apex:column value="{!opp.Name}"/>
+<apex:column value="{!opp.Amount}"/>
+<apex:column value="{!opp.CloseDate}"/>
+<apex:column value="{!opp.StageName}"/>
+<apex:column value="{!opp.owner.name}"/>
+<apex:column value="{!opp.Type}"/>
+<apex:column value="{!opp.Account.name}"/>
+<apex:column headerValue="Action">
+<apex:commandButton value="Win" action="{!winOpp}" status="status" rerender="opps_pb" rendered="{!opp.StageName != 'Closed Won'}">
+<apex:param name="oppIdToWin" value="{!opp.Id}" assignTo="{!oppIdToWin}"/>
+</apex:commandButton>
+
+
+<apex:commandButton value="Closed Date to Today" action="{!ChangeClosedate}" status="status" rerender="opps_pb" rendered="{!opp.closedate != null }">
+<apex:param name="Closed Date to Today" value="{!opp.Id}" assignTo="{!oppIdToWin}"/>
+</apex:commandButton>
+
+        </apex:column>
+   </apex:pageBlockTable>
+  </apex:pageBlock>
+ </apex:form>
+</apex:page>
