@@ -6,7 +6,7 @@
  *******************************************************************/
 public with sharing class AccountCasesCommentsEditExt
 {
-    //Comments added to check if they are going to github Test One
+    //Removed the comment
     // The cases being managed, as wrapper classes so that we can
     // uniquely identify records before they are added to the database
     public List<CaseKeyWrapper> caseWrappers {get; set;}
