@@ -5,7 +5,7 @@ global class AngularSearch {
 		return JSON.serialize([Select Id,Name,Rating,Industry from Account]);
 	}
 
-
+ // Testing if this goes to source tree
 	global static string getOpportunities()
 	{
 		return JSON.serialize([Select Id,Name,StageName from Opportunity]);
